@@ -9,6 +9,7 @@
     <script>
       let myHeading = document.querySelector('button');
       let myName = prompt('Please enter your name.');
+      localStorage.setItem('name', myName);
       myHeading.innerHTML = 'Hello, ' + myName;
     </script>
   </body>
